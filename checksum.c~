@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<fentl.h>
+int main()
+{
+unsigned int one;
+unsigned int two;
+unsigned int check;
+unsigned int checkresult;
+printf("\nEnter the first hex value:");
+scanf("%x",&one);
+printf("\nEnter the second hex value:");
+scanf("%x",&one);
+check=one+two;
+check=check;
+printf("\nThe value of check is:%x",check);
+checkresult=one+two+check;
+printf("\The value of checkresult:%x",checkresult);
+checkresult=checkresult;
+printf("\n The value of answer is :%x",check result);
+else
+printf("\n The check sum of the code generated is not correct");
+}

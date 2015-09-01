@@ -1,0 +1,65 @@
+#include<stdio.h>
+int i.data[10].dl.gen[10],gl,temp[10],c;
+void left_shift()
+{
+for(i=0;i<gl-1;i++)
+temp(i)=temp[i+1];
+if(c<d1)
+temp[gl-1]=data[c];
+else
+temp[gl-1]=0
+}
+void xor()
+{
+if(temp[0]==0
+{
+left_shift();
+c++;
+for(i=0;i<gl;i++)
+{
+if(gen(i)==temp(i)
+temp(i)=0
+else
+temp[i]=1;
+}
+}
+int main()
+{
+int j;
+printf("1.generate2.check\nchoice:");
+scanf("%d",&j);
+printf("Enter the length of data:");
+scanf("%d",&dl);
+printf("Enter the data:");
+for(i=0;i<dl;i++)
+scanf("%d";&data[i]);
+printf("Enter the length of generator:");
+scanf("%d",&gl);
+printf("Enter the generator:");
+for(i=0;i<gl;i++)
+temp[i]=data[i]
+if(j==1)
+{
+for(c=4;c<dl+gl-2;c++)
+{
+xor();
+printf("crc:");
+for(i=0;i<dl;i++)
+printf"%d",data[i]);
+}
+else
+{
+for(c=4;c<dl;c++)
+{
+xor();
+left_shift();
+}
+printf("crc");
+}
+for(i=1;i<gl;i++)
+printf("%d"'temp[i]);
+printf("\n");
+
+
+return 0;
+}
